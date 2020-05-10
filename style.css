@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+canvas {
+  display: block;
+}
+
+button{
+  font-size: 20px;
+}
+
+#map1{
+  float: left;
+  width:60%;
+  height: auto;
+}
+
+#mapData1{
+  float: left;
+  width:40%;
+}
+
+#mapData1 p{
+  font-size: 20px;
+  color:blue;
+  padding-left: 20px;
+}
+
+.fullWidthArea{
+  padding-bottom: 10px;
+}
