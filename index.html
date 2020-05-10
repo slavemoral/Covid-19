@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <div id="textArea" class="fullWidthArea">
+    <p>Denne side henter data fra ...</p>
+    <p>Sidens har til hensigt at give et overblik over coronakrisens udvikling i forhold til smitte- og dødstal</p>
+    <p>Der to knapper, som respektivt viser udviklingen af smitte og dødsfald. Grøn viser en aftagende vægst og rød viser en tiltagende vægst.</p>
+    
+  </div>
+  <div id="buttonArea" class="fullWidthArea">
+    <button onclick="displayCases()">Confirmed cases</button>
+    <button onclick="displayDeaths()">Deaths</button>
+  </div>
+  <div id="mapArea">
+    <div id="map1"></div>
+    <div id="mapData1">
+      <p id="date1">
+      </p>
+      <p id="total1">
+      </p>
+      <p id="topCountry1">
+      </p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
